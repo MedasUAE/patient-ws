@@ -10,5 +10,14 @@ module.exports = {
         password : process.env.DB_PSW || 'medteam2013',
         port : process.env.DB_PORT || 3306, //port mysql
         database:process.env.DB_NAME || 'eclinic_samc'
+    },
+    mail: {
+        name: "mailAPI",
+        from: process.env.FROM || "talat@medassolutions.com",// from address
+        to: process.env.To || "talatm02@gmail.com",// to address
+        host : process.env.HOST || "smtp.emailsrvr.com",
+        emailPort : process.env.EMAILPORT || 2525,
+        username : process.env.USERNAME || "talat@medassolutions.com", 
+        pass : process.env.PSW || 'Med@$pass1',
     }
 }
