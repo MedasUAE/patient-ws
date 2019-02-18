@@ -13,11 +13,11 @@ module.exports = {
     },
     mail: {
         name: "mailAPI",
-        from: process.env.FROM || "",// from address
-        to: process.env.To || "",// to address
+        from: process.env.FROM || "talat@medassolutions.com",// from address
+        to: process.env.To || "talatm02@gmail.com",// to address
         host : process.env.HOST || "smtp.emailsrvr.com",
         emailPort : process.env.EMAILPORT || 2525,
-        username : process.env.USERNAME || "", 
-        pass : process.env.PSW || 'pass',
+        username : process.env.USERNAME || "talat@medassolutions.com", 
+        pass : process.env.PSW || 'Med@$pass1',
     }
 }
