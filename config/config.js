@@ -5,19 +5,15 @@ module.exports = {
     loglevel: "all", //debug, info, error, all , off
     showconsole: true, //true,false
     db:{
-        host: process.env.DB_HOST || 'localhost',
+        host: process.env.DB_HOST || '192.168.0.20',
         user: process.env.DB_USER || 'root',
         password : process.env.DB_PSW || 'medteam2013',
         port : process.env.DB_PORT || 3306, //port mysql
-        database:process.env.DB_NAME || 'eclinic_samc'
+        database:process.env.DB_NAME || 'eclinic_daweni_p1'
     },
     mail: {
-        name: "mailAPI",
-        from: process.env.FROM || "talat@medassolutions.com",// from address
-        to: process.env.To || "talatm02@gmail.com",// to address
-        host : process.env.HOST || "smtp.emailsrvr.com",
-        emailPort : process.env.EMAILPORT || 2525,
-        username : process.env.USERNAME || "talat@medassolutions.com", 
-        pass : process.env.PSW || 'Med@$pass1',
+        clientId: "daweni",
+        url: "http://40.123.209.214:8010/v1/notification",
+        toMailId: "appointment@daweni.com.sa"
     }
 }
