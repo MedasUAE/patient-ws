@@ -3,3 +3,4 @@ package-lock.json
 Dockerfile
 testdata
 test
+data/images
