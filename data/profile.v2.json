@@ -1,0 +1,18 @@
+[
+    {"name":"Profile 1", "price": 200},
+    {"name":"Profile 2", "price": 200},
+    {"name":"Dental Implants", "price": 200},
+    {"name":"Dental Routine", "price": 200},
+    {"name":"Digital smile design", "price": 200},
+    {"name":"Fixed and Removable Dentures", "price": 200},
+    {"name":"Guided Implant Surgery", "price": 200},
+    {"name":"Gum treatments", "price": 200},
+    {"name":"Hollywood smile", "price": 200},
+    {"name":"Laser Dentistry", "price": 200},
+    {"name":"Modern orthodontic treatments", "price": 200},
+    {"name":"Pain & Anxiety-free Dentistry", "price": 200},
+    {"name":"Periodontal Treatment", "price": 200},
+    {"name":"Smile design and dental veneers", "price": 200},
+    {"name":"Zoom teeth whitening", "price": 200},
+    {"name":"3D, CBCT, Panorama, X-Ray", "price": 200}
+]
